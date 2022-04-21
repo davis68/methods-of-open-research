@@ -1,13 +1,5 @@
 # Plotting
 
-## Elements of Plots
-
-- just show a few and ask what looks good, what looks bad
-
-## MatPlotLib
-
-- that old notebook I have is good here
-
 ## Publication-Quality Plots
 
 Have you ever seen a journal article or book with a pixelated graph?  It's a pretty cringey mistake to see through into print, and quite avoidable—although sometimes difficult to see on a screen.
