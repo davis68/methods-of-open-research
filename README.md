@@ -49,8 +49,8 @@ At the conclusion of this course, students should be able to
     - [Noble, “A quick guide to organizing computational biology projects”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
     - [Data Carpentry, “Spreadsheets for Social Science”](https://datacarpentry.org/spreadsheets-socialsci/)
   - Data files:
-  - Assignments:
-    - Quiz
+    - [Reinhart-Rogoff reconstructed spreadsheet](../data/rr-clean.xlsx)
+
 2. Data Organization in Spreadsheets [1 lesson]
   - Objectives:
     - Enumerate principles of good data entry and structure.
@@ -60,13 +60,11 @@ At the conclusion of this course, students should be able to
     - Any spreadsheet program:  [Microsoft Excel]() or [LibreOffice](), for instance.
   - Readings:
     - [“Data Organization in Spreadsheets for Ecologists”](https://datacarpentry.org/spreadsheet-ecology-lesson/)
-  - Data files:
-    - `Towed Vehicles (messy data).xlsx`
-    - `Tidy Data`
-    - `GDP/Debt by Countries.xlsx`
-`
-  - Assignments:
-    - Quiz
+    - [`Tidy Data`](../data/tidy_data_paper.pdf)
+- Data files:
+    - [`Towed Vehicles (messy data).xlsx`](../data/Towed Vehicles (messy data).xlsx)
+    - [`GDP/Debt by Countries.xlsx`](https://docs.google.com/spreadsheets/d/1U0moY2h2XXGFURwiIZZ2s3dI12rWmd5xK0ELESaVyIQ/edit#gid=2059139741)
+
 3. Data Cleaning with OpenRefine [1 lesson]
   - Objectives:
     - Explain the ETL (extract–transform–load) process for data sets.
@@ -81,9 +79,6 @@ At the conclusion of this course, students should be able to
     - [“About OpenRefine”](https://guides.library.illinois.edu/openrefine)
     - [“Data Cleaning with OpenRefine for Ecologists”](https://datacarpentry.org/OpenRefine-ecology-lesson/)
     - [“OpenRefine:  Clean Your Data”](https://uidaholib.github.io/clean-your-data/5-resources.html)
-  - Data files:
-  - Assignments:
-    - Quiz
 
 ### Process Management
 
@@ -99,9 +94,6 @@ At the conclusion of this course, students should be able to
     - Windows:  [Git for Windows/Git Bash](https://gitforwindows.org/)
   - Readings:
     - [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
-  - Data files:
-  - Assignments:
-    - Quiz
 
 5. Managing Project History and Changes with Git [2 lessons]
   - Objectives:
@@ -122,9 +114,7 @@ At the conclusion of this course, students should be able to
     - [Wickes, “Getting started with GitHub (for text documents)”](https://github.com/elliewix/github-training-brain-dumps/blob/master/github_directions_text_only.md)
     - [Wilson et al., “Keeping Track of Changes”](https://uofi.box.com/s/mqzpmx563ewf2yph89w1cubw65659ltx) (from [“Good enough practices in scientific computing”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510))
     - [Wilson et al., “Manuscript Versioning Control”](https://uofi.app.box.com/s/fqvazy0ugxr0xb0uj5u87u7b2e9czpvn) (from [“Good enough practices in scientific computing”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510))
-  - Data files:
-  - Assignments:
-    - Quiz
+
 6. Scripting for Reproducibility
     1. Python track (simultaneous with R) [5 lessons]
       - Objectives:
@@ -154,10 +144,7 @@ At the conclusion of this course, students should be able to
     - Readings:
       - [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
       - [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/)
-    - Lesson:
-    - Data files:
-    - Assignments:
-      - Quiz
+
     2. R track (simultaneous with Python) [5 lessons]
       - Objectives:
          * Write programs that assign scalar values to variables and perform calculations with those values.
@@ -184,37 +171,29 @@ At the conclusion of this course, students should be able to
       - Readings:
         - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)
         - [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
-      - Lesson:
-      - Data files:
-      - Assignments:
-        - Quiz
-7. Visualizing Data [1 lesson]
+
+7. Visualizing Data [2 lessons]
   - Objectives:
     - Articulate a model of building effective plots.
     - Distinguish types of plots and their utility (particularly print v. web products).
     - Visualize unstructured and discrete data.
-  - Software:
   - Readings:
+    - [“Elements of Plotting”](./lessons/plotting-elements.md)
+    - [“Visualizing Data”](./lessons/plotting-visiualizing-data.md)
     - [Jean-Luc Doumont, _Trees, maps, and theorems_](https://www.principiae.be/book/)
     - [Edward Tufte, _The Visual Display of Quantitative Information_](https://www.edwardtufte.com/tufte/books_vdqi)
     - [Leland Wilkinson, _The Grammar of Graphics_](https://link.springer.com/book/10.1007%2F0-387-28695-0)
-  - Lesson:
-    - Assess examples of visuals.
-  - Data files:
-  - Assignments:
-    - Quiz
+
 8. Visualizing Data using a Scripting Language [1 lesson]
     1. Python track (simultaneous with R) [1 lesson]
       - Objectives:
         - Produce publication-quality plots using `matplotlib`.
         - Compose a script to produce publication-quality plots in a repeatable manner.
       - Software:
-        - Python
+        - Python (MatPlotLib, `plotnine`)
       - Readings:
-      - Lesson:
-      - Data files:
-      - Assignments:
-        - Quiz
+        - [“Making Plots with `plotnine`”](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html)
+        - [“Plotting” (MatPlotLib)](https://swcarpentry.github.io/python-novice-gapminder/09-plotting/index.html)
     2. R track (simultaneous with Python) [1 lesson]
       - Objectives:
         - Produce publication-quality plots using `ggplot`.
@@ -222,14 +201,7 @@ At the conclusion of this course, students should be able to
       - Software:
         - RStudio
       - Readings:
-      - Lesson:
-      - Data files:
-      - Assignments:
-        - Quiz
-9. Interacting with Data (Widgets) [1 lesson]
-  - Objectives:
-    - Use notebook widgets to visualize system behavior.
-    - Create a basic widget to examine the behavior of a function or equation.
+        - [“Creating Publication-Quality Graphics with `ggplot2`”](https://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/index.html)
 
 ### Project Management
 
@@ -239,22 +211,30 @@ At the conclusion of this course, students should be able to
     - Build automatic tools to manage portions of your data analysis.
     - Explain the standard project lifecycle, from conceptualization to termination.
     - Consider what the standard project lifecycle looks like in practical research software and research program efforts.
+   - Readings:
+     - [“Research Workflows”](./lessons/workflows.md)
+
 11. Task Management [1 lesson]
   - Objectives:
     - Enumerate models of basic project management (such as waterfall, Agile, etc.) and explain objectives and rationales of each.
     - Relate project management to a research program.
     - Employ an issue-tracking system such as kanban to organize project tasks and deliverables.
     - Create a suitable metadata and tagging system for your research project (_à la_ Zettelkasten).
+  - Readings:
+    - [“Task Management”](./lessons/task-management.md)
+
 12. Testing & Continuous Integration [1 lesson]
   - Objectives:
     - Identify the role of testing in a production workflow.
     - Enumerate several forms of testing.
     - Build a set of basic tests for your project.
     - Implement a continuous integration server.
-  - Readings
+  - Readings:
+    - [“Gaining Confidence in Your Code through Testing”](./lessons/testing.md)
     - [Scopatz & Huff, _Effective Computation in Physics_](http://physics.codes/)
     - [Introduction to Testing (and Continuous Integration)](https://people.bath.ac.uk/rjg20/training/intro-testing/)
     - [Python Testing and Continuous Integration](https://carpentries-incubator.github.io/python-testing/) (TravisCI material slightly out-of-date)
+
 13. Data Entry & Storage with SQL [2 lessons]
   - Objectives:
     - Identify and distinguish a table, a record, and a field.
@@ -268,17 +248,22 @@ At the conclusion of this course, students should be able to
     * Identify primary keys in database tables.
   - Readings
     - [Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
+
 14. Working with Databases using a Scripting Language [1 lesson]
   1. Python track (simultaneous with R) [1 lesson]
     - Objectives:
       - Set up a new database from scratch for a research project.
       - Populate a database automatically using a script, API, or database UI tool.
       - Explain why database entries should not contain redundant information.
+    - Readings
+      - [Programming with Databases - Python](https://swcarpentry.github.io/sql-novice-survey/10-prog/index.html)
   2. R track (simultaneous with Python) [1 lesson]
     - Objectives:
       - Set up a new database from scratch for a research project.
       - Populate a database automatically using a script, API, or database UI tool.
       - Explain why database entries should not contain redundant information.
+    - Readings
+      - [Programming with Databases - R](https://swcarpentry.github.io/sql-novice-survey/11-prog-R/index.html)
 
 ### Productive Collaboration
 
@@ -287,6 +272,8 @@ At the conclusion of this course, students should be able to
     - Compose a document using internal structural features, such as automatic labeling and numbering.
     - Enumerate document composition best practices.
     - Employ an automated citation management tool (such as BibTeX, Zotero, etc.).
+  - Readings
+    - [“Document Authoring”](./lessons/document-authoring.md)
 
 16. Collaboration, Licensing & Legal [1 lesson]
   - Objectives:
@@ -300,13 +287,18 @@ At the conclusion of this course, students should be able to
 
 17. Reproducibility [1 lesson]
   - Objectives:
+    - Understand the aims of the open research community.
+    - Enumerate options for publishing reproducible research
     - Describe best practices for creating reproducible products and explain the justification for each.
     - Produce and document a project (script plus data files) capable of recreating an entire final product.
     - Distinguish strengths and weaknesses of various build management systems.
-    * Access a Docker image containing scripts and data.
-    * Reproduce a pre-packaged pipeline to reproduce published results.
-    * Construct a simple container containing data and scripts for reproducibility.
-    https://carpentries-incubator.github.io/docker-introduction/
+    - Walk through a WholeTale reproducible project and assess compatibility.
+      * Access a Docker image containing scripts and data (via WholeTale).
+      * Reproduce a pre-packaged pipeline to reproduce published results.
+      * Construct a simple container containing data and scripts for reproducibility.
+  - Readings:
+    - [“Reproducibility & Open Research”](./lessons/reproducibility.md) 
+    - [“Reproducible Computational Environments Using Containers: Introduction to Docker”](https://carpentries-incubator.github.io/docker-introduction/)
 
 ---
 
