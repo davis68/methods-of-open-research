@@ -75,6 +75,7 @@ What's the trouble with open research?
 - [Dan Gezelter, "What exactly is Open Science?"](http://openscience.org/what-exactly-is-open-science/)
 - [Elizabeth Gilbert, "What Is “Open Science”? (And Why Some Researchers Want It)", _Futurism_](https://futurism.com/what-is-open-science-and-why-some-researchers-want-it)
 - [Tal Yarkoni, "I Hate Open Science"](https://www.talyarkoni.org/blog/2019/07/13/i-hate-open-science/)
+- [Azoulay et al., "The career effects of scandal: Evidence from scientific retractions"](https://www.sciencedirect.com/science/article/abs/pii/S0048733317301154?via%3Dihub)
 
 
 ## Journals
